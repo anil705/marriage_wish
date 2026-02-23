@@ -86,19 +86,19 @@ function startConfetti() {
 }
 
 // ===== Slow Motion Scroll =====
-function slowScrollToBottom() {
-    let scrollHeight = document.body.scrollHeight;
-    let currentPosition = window.scrollY;
+// function slowScrollToBottom() {
+//     let scrollHeight = document.body.scrollHeight;
+//     let currentPosition = window.scrollY;
 
-    let interval = setInterval(function () {
+//     let interval = setInterval(function () {
 
-        currentPosition += 2;  // Speed (1 = slower, 3 = faster)
+//         currentPosition += 2;  // Speed (1 = slower, 3 = faster)
 
-        window.scrollTo(0, currentPosition);
+//         window.scrollTo(0, currentPosition);
 
-        if (currentPosition >= scrollHeight) {
-            clearInterval(interval);
-        }
+//         if (currentPosition >= scrollHeight) {
+//             clearInterval(interval);
+//         }
 
-    }, 20);  // Delay (20ms = smooth slow)
-}
+//     }, 20);  // Delay (20ms = smooth slow)
+// }
